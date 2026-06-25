@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f8f3ff;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background: #6f2da8;
+    color: white;
+    padding: 20px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #f3d4ff;
+}
+
+/* Seção principal */
+.hero {
+    padding: 80px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    color: #6f2da8;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.price {
+    font-size: 35px;
+    font-weight: 700;
+    color: #6f2da8;
+    margin-bottom: 25px;
+}
+
+.btn {
+    display: inline-block;
+    background: #6f2da8;
+    color: white;
+    text-decoration: none;
+    padding: 15px 35px;
+    border-radius: 30px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #5a2288;
+    transform: scale(1.05);
+}
+
+.hero-image {
+    flex: 1;
+    text-align: center;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* Benefícios */
+.benefits {
+    padding: 80px 8%;
+    text-align: center;
+}
+
+.benefits h2 {
+    color: #6f2da8;
+    margin-bottom: 40px;
+}
+
+.cards {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    width: 300px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+    margin-bottom: 15px;
+}
+
+/* Galeria */
+.gallery {
+    padding: 80px 8%;
+    text-align: center;
+}
+
+.gallery h2 {
+    color: #6f2da8;
+    margin-bottom: 40px;
+}
+
+.images {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.images img {
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+/* CTA */
+.cta {
+    background: #6f2da8;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.cta h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.cta p {
+    margin-bottom: 30px;
+}
+
+/* Rodapé */
+footer {
+    background: #4a1c6e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
