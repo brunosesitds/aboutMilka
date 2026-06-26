@@ -1,8 +1,12 @@
+if (!localStorage.getItem("usuario")) {
+    window.location.href = "login.html";
+}
+
 document.getElementById("usuario")
 .textContent =
 localStorage.getItem("usuario");
 
-fetch("../dados/produtos.json")
+fetch("dados/produtos.json")
 .then(res => res.json())
 .then(produtos => {
 

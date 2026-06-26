@@ -1,11 +1,13 @@
+/* Configurações Gerais */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f9f6f0; 
-    color: #4a2c11; 
+    background-color: #f9f6f0;
+    color: #4a2c11;
     margin: 0;
     padding: 20px;
 }
 
+/* Caixa de Login */
 .login-box {
     max-width: 400px;
     margin: 100px auto;

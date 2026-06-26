@@ -67,9 +67,9 @@ function renderizarCarrinho() {
 }
 
 function removerItem(index) {
-    carrinho.splice(index, 1); 
+    carrinho.splice(index, 1);
     localStorage.setItem("carrinho", JSON.stringify(carrinho));
-    renderizarCarrinho(); 
+    renderizarCarrinho();
 }
 
 renderizarCarrinho();

@@ -1,30 +1,98 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<title>Loja</title>
-<link rel="stylesheet" href="../css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja - MonkiChoc</title>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
 
 <header>
-
     <h1>🍫 MonkiChoc</h1>
-
-    <div>
-        Bem-vindo,
-        <span id="usuario"></span>
-
-        <a href="carrinho.html">
-            🛒 Carrinho
+    <div class="user-control">
+        <span>Bem-vindo, <strong id="usuario"></strong>!</span>
+        <a href="carrinho.html" class="btn-carrinho">
+            🛒 Meu Carrinho
         </a>
     </div>
-
 </header>
 
-<section id="produtos"></section>
+<section id="produtos">
 
-<script src="js/loja.js"></script>
+    <div class="card">
+        <img src="../images/chocolate1.jpg" alt="Chocolate ao Leite Classic">
+        <h3>Chocolate ao Leite Classic</h3>
+        <p>R$ 12.90</p>
+        <button onclick="adicionar(1)">Adicionar</button>
+    </div>
+
+    <div class="card">
+        <img src="../images/chocolate2.jpg" alt="Chocolate Branco Alpino">
+        <h3>Chocolate Branco Alpino</h3>
+        <p>R$ 14.90</p>
+        <button onclick="adicionar(2)">Adicionar</button>
+    </div>
+
+    <div class="card">
+        <img src="../images/chocolate3.jpg" alt="Chocolate Meio Amargo 60%">
+        <h3>Chocolate Meio Amargo 60%</h3>
+        <p>R$ 15.90</p>
+        <button onclick="adicionar(3)">Adicionar</button>
+    </div>
+
+    <div class="card">
+        <img src="../images/chocolate4.jpg" alt="Chocolate com Caramelo Salgado">
+        <h3>Chocolate com Caramelo Salgado</h3>
+        <p>R$ 17.90</p>
+        <button onclick="adicionar(4)">Adicionar</button>
+    </div>
+
+    <div class="card">
+        <img src="../images/chocolate5.jpg" alt="Chocolate com Avelãs Inteiras">
+        <h3>Chocolate com Avelãs Inteiras</h3>
+        <p>R$ 18.50</p>
+        <button onclick="adicionar(5)">Adicionar</button>
+    </div>
+
+    <div class="card">
+        <img src="../images/chocolate6.jpg" alt="Chocolate Oreo Crunch">
+        <h3>Chocolate Oreo Crunch</h3>
+        <p>R$ 19.90</p>
+        <button onclick="adicionar(6)">Adicionar</button>
+    </div>
+
+    <div class="card">
+        <img src="../images/chocolate7.jpg" alt="Chocolate Recheio de Morango">
+        <h3>Chocolate Recheio de Morango</h3>
+        <p>R$ 16.90</p>
+        <button onclick="adicionar(7)">Adicionar</button>
+    </div>
+
+    <div class="card">
+        <img src="../images/chocolate8.jpg" alt="Chocolate Triplo Chocolate (Mousse)">
+        <h3>Chocolate Triplo Chocolate (Mousse)</h3>
+        <p>R$ 21.00</p>
+        <button onclick="adicionar(8)">Adicionar</button>
+    </div>
+
+    <div class="card">
+        <img src="../images/chocolate9.jpg" alt="Chocolate Branco com Cookies">
+        <h3>Chocolate Branco com Cookies</h3>
+        <p>R$ 15.50</p>
+        <button onclick="adicionar(9)">Adicionar</button>
+    </div>
+
+    <div class="card">
+        <img src="../images/chocolate10.jpg" alt="Trufas de Chocolate Sortidas">
+        <h3>Trufas de Chocolate Sortidas</h3>
+        <p>R$ 24.90</p>
+        <button onclick="adicionar(10)">Adicionar</button>
+    </div>
+
+</section>
+
+<script src="../js/loja.js"></script>
 
 </body>
 </html>

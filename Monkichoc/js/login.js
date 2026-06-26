@@ -9,10 +9,6 @@ document.addEventListener("DOMContentLoaded", function () {
         if (!nome || nome.trim() === "") {
             alert("Digite seu nome!");
             return;
-
-            if (!localStorage.getItem("usuario")) {
-                window.location.href = "login.html";
-            }
         }
 
         localStorage.setItem("usuario", nome);

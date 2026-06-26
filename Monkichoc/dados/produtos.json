@@ -1,26 +1,62 @@
 [
     {
         "id": 1,
-        "nome": "Chocolate ao Leite",
+        "nome": "Chocolate ao Leite Classic",
         "preco": 12.90,
         "imagem": "images/chocolate1.jpg"
     },
     {
         "id": 2,
-        "nome": "Chocolate Branco",
+        "nome": "Chocolate Branco Alpino",
         "preco": 14.90,
         "imagem": "images/chocolate2.jpg"
     },
     {
         "id": 3,
-        "nome": "Chocolate Meio Amargo",
+        "nome": "Chocolate Meio Amargo 60%",
         "preco": 15.90,
         "imagem": "images/chocolate3.jpg"
     },
     {
         "id": 4,
-        "nome": "Chocolate com Caramelo",
+        "nome": "Chocolate com Caramelo Salgado",
         "preco": 17.90,
         "imagem": "images/chocolate4.jpg"
+    },
+    {
+        "id": 5,
+        "nome": "Chocolate com Avelãs Inteiras",
+        "preco": 18.50,
+        "imagem": "images/chocolate5.jpg"
+    },
+    {
+        "id": 6,
+        "nome": "Chocolate Oreo Crunch",
+        "preco": 19.90,
+        "imagem": "images/chocolate6.jpg"
+    },
+    {
+        "id": 7,
+        "nome": "Chocolate Recheio de Morango",
+        "preco": 16.90,
+        "imagem": "images/chocolate7.jpg"
+    },
+    {
+        "id": 8,
+        "nome": "Chocolate Triplo Chocolate (Mousse)",
+        "preco": 21.00,
+        "imagem": "images/chocolate8.jpg"
+    },
+    {
+        "id": 9,
+        "nome": "Chocolate Branco com Cookies",
+        "preco": 15.50,
+        "imagem": "images/chocolate9.jpg"
+    },
+    {
+        "id": 10,
+        "nome": "Trufas de Chocolate Sortidas",
+        "preco": 24.90,
+        "imagem": "images/chocolate10.jpg"
     }
 ]
